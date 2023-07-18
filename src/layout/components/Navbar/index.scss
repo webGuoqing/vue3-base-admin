@@ -1,0 +1,17 @@
+.navbar {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    &>* {
+        flex: 1;
+        height: 100%;
+        display: flex;
+        align-items: center;
+      }
+}
+.el_iconfont {
+    font-size: 20px;
+    color: var(--el-text-color-primary);
+    cursor:pointer;
+  }

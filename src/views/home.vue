@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+   <div class="container">
         <div>
             <h1 class="title">我是vue基础模板</h1>
             <div class="info">主要技术栈包含：vue3+pinia+vite+typeScript</div>
@@ -14,13 +14,14 @@ import { } from 'vue-router'
 
 <style lang="scss" scoped>
 .container {
-    height: 90vh;
+    height: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .title {
+    height: 1000px;
     text-align: center;
     font-size: 30px;
     font-weight: 600;

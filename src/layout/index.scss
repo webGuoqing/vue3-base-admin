@@ -1,0 +1,29 @@
+.el_container{
+    height: 100vh;
+    overflow: hidden;
+}
+.el_aside {
+    // background: linear-gradient(#00b9b3, #2098ad);
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0, 21, 41, .08);
+}
+
+.el_header {
+    height: 55px;
+    background-color: #fff;
+}
+
+.el_main {
+    padding: 10px;
+    background-color: #f6f8f9;
+    overflow: auto;
+}
+.el_footer {
+    padding: 0;
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+    background-color: #fff;
+    text-align: center;
+    color: #B7B7B7;
+}
