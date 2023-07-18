@@ -1,4 +1,5 @@
 import { createApp } from 'vue'
+import './permission';
 import '@/style/index.scss'
 import App from './App.vue'
 import ElementPlus from 'element-plus'
