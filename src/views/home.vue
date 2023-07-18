@@ -14,7 +14,7 @@ import { } from 'vue-router'
 
 <style lang="scss" scoped>
 .container {
-    height: 100vh;
+    height: 90vh;
     display: flex;
     align-items: center;
     justify-content: center;

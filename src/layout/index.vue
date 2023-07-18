@@ -1,7 +1,8 @@
 <!-- layout主布局 -->
 <template>
     <div class="container">
-
+        我是layout
+        <router-view />
     </div>
 </template>
 

@@ -1,0 +1,29 @@
+.error_content {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .error_img{
+    height: 300px;
+    width: 80%;
+  }
+  .error_num {
+    position: absolute;
+    font-size: 100px;
+    color: #00000063;
+    top: 5%;
+  }
+  
+  .error_info {
+    position: absolute;
+    bottom: 20%;
+    text-align: center;
+  }
+  
+  h2 {
+    font-size: 12px;
+    line-height: 40px;
+  }
