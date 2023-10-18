@@ -4,7 +4,7 @@
         <el-container class="el_container">
             <el-aside 
                class="el_aside" 
-               :width="appStore.isCollapse ? '70px' : '200px'" 
+               :width="appStore.isCollapse ? '64px' : '200px'" 
                 v-if="appStore.device != 'mobile'">
                 <Logo></Logo>
                 <Menu></Menu>
@@ -22,7 +22,7 @@
     </div>
 </template>
 
-<script lang="ts" setup>
+<script lang="ts" setup name="home">
 import Menu from './components/Menu/index.vue';
 import Main from './components/Main/index.vue';
 import Logo from './components/Logo/index.vue';

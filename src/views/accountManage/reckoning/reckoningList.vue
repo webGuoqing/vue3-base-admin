@@ -1,6 +1,6 @@
 <template>
     <div class="container">
-        我是首页
+        账单列表
     </div>
 </template>
 

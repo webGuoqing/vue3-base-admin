@@ -6,20 +6,28 @@ import Layout from "@/layout/index.vue";
  */
 export const staticRouter: RouteRecordRaw[] = [
     {
-        path: "/",
-        redirect: HOME_URL
-    },
-    {
-        path: '/home',
-        name: "Home",
+        path: '/',
         component: Layout,
-        redirect: HOME_URL,
+        name:"Index",
+        redirect: '/home',
+        meta: {
+          title: "全局首页",
+          icon:"icon-gongzuotai",
+          isHidden:true,
+          isChildren:true,
+          activeMenu:"Index"
+        },
         children: [
             {
-                path: 'index',
-                name: "Index",
+                path: '/home',
+                name: "Home",
                 component: ()=> import("@/views/home.vue"),
-                meta: { title: "首页", icon: '' },
+                meta: {
+                  title: "首页",
+                  icon:"",
+                  isHidden:true,
+                  activeMenu:"Index"
+                },
             },
         ]
     }
@@ -34,7 +42,9 @@ export const errorRouter = [
         name: "403",
         component: () => import("@/views/error/403.vue"),
         meta: {
-          title: "403页面"
+          title: "403页面",
+          icon:"",
+          isHidden:false,
         }
       },
       {
@@ -42,7 +52,9 @@ export const errorRouter = [
         name: "404",
         component: () => import("@/views/error/404.vue"),
         meta: {
-          title: "404页面"
+          title: "404页面",
+          icon:"",
+          isHidden:false,
         }
       },
       {
@@ -50,17 +62,11 @@ export const errorRouter = [
         name: "401",
         component: () => import("@/views/error/401.vue"),
         meta: {
-          title: "401页面"
+          title: "401页面",
+          icon:"",
+          isHidden:false,
         }
       },
-    //   {
-    //     path: "/500",
-    //     name: "500",
-    //     component: () => import("@/components/ErrorMessage/500.vue"),
-    //     meta: {
-    //       title: "500页面"
-    //     }
-    //   },
       {
         path: "/:pathMatch(.*)*",
         component: () => import("@/views/error/404.vue")

@@ -1,0 +1,58 @@
+{
+  "id": "4292134",
+  "name": "base-admin",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "10956652",
+      "name": "工作台",
+      "font_class": "gongzuotai",
+      "unicode": "e70b",
+      "unicode_decimal": 59147
+    },
+    {
+      "icon_id": "11007899",
+      "name": "清单",
+      "font_class": "qingdan",
+      "unicode": "e70e",
+      "unicode_decimal": 59150
+    },
+    {
+      "icon_id": "11079325",
+      "name": "数据",
+      "font_class": "shuju1",
+      "unicode": "e711",
+      "unicode_decimal": 59153
+    },
+    {
+      "icon_id": "128654",
+      "name": "content-right",
+      "font_class": "contentright",
+      "unicode": "e67a",
+      "unicode_decimal": 59002
+    },
+    {
+      "icon_id": "7166405",
+      "name": "fangda",
+      "font_class": "fangda1",
+      "unicode": "e640",
+      "unicode_decimal": 58944
+    },
+    {
+      "icon_id": "7166472",
+      "name": "suoxiao",
+      "font_class": "suoxiao1",
+      "unicode": "e641",
+      "unicode_decimal": 58945
+    },
+    {
+      "icon_id": "22551111",
+      "name": "主题",
+      "font_class": "ico_zhuti_baisebeifen",
+      "unicode": "e638",
+      "unicode_decimal": 58936
+    }
+  ]
+}

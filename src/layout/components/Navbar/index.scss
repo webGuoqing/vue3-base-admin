@@ -1,17 +1,32 @@
 .navbar {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  &>* {
+    flex: 1;
     height: 100%;
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    &>* {
-        flex: 1;
-        height: 100%;
-        display: flex;
-        align-items: center;
-      }
-}
-.el_iconfont {
-    font-size: 20px;
-    color: var(--el-text-color-primary);
-    cursor:pointer;
   }
+}
+
+.el_iconfont {
+  font-size: 20px;
+  color: var(--el-text-color-primary);
+  cursor: pointer;
+}
+
+.nav_right {
+  display: flex;
+  justify-content: flex-end;
+  padding: 0 20px;
+}
+
+.iconfont {
+  color: var(--el-text-color-primary);
+  cursor: pointer;
+  font-size: 20px;
+  margin: 0 10px;
+}

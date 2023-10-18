@@ -1,7 +1,7 @@
 <template>
-    <div class="container">
-        我是首页
-    </div>
+<div class="container">
+账户管理
+</div>
 </template>
 
 <script lang="ts" setup>
@@ -10,4 +10,6 @@ import { } from 'vue-router'
 
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+
+</style>

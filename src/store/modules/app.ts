@@ -4,10 +4,20 @@ import { defineStore } from "pinia"
 const useAppStore = defineStore('app', {
     state: () => (
         {
+            // 主题颜色
+            primary: '#D70110',
+            // 侧边栏反转
+            asideInverted: true,
+            // 是否显示logo
+            isLogo: true,
+            // 是否点击折叠菜单、点击后不会基金适配
+            isClickCollapse: false,
             // 页面分辨率
             device: 'desktop',
             // 折叠菜单
-            isCollapse: false
+            isCollapse: false,
+            // element 组件大小
+            assemblySize: "default",
         }
     ),
     actions: {

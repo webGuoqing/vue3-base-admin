@@ -1,6 +1,7 @@
 <template>
     <div class="container">
-        我是首页
+        系统管理
+        <router-view></router-view>
     </div>
 </template>
 
