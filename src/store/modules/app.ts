@@ -18,6 +18,16 @@ const useAppStore = defineStore('app', {
             isCollapse: false,
             // element 组件大小
             assemblySize: "default",
+            // 内容是否可全屏展示
+            contentFullScreen: false,
+            // 页面是否最大话，与contentFullScreen字段相似
+            maximize: false,
+            //  是否显示tabs
+            tabs: true,
+            // 是否显示tabs的icon
+            tabsIcon: true,
+            // 面包屑导航图标
+            breadcrumbIcon: true,
         }
     ),
     actions: {

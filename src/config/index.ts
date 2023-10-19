@@ -4,4 +4,4 @@
 export const ADMIN_TITLE: string = "base-admin";
 
 // 首页地址（默认）
-export const HOME_URL: string = "/home/index";
+export const HOME_URL: string = "/home";

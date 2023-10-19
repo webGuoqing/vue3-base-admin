@@ -2,9 +2,10 @@
 import router from './router';
 import NProgress from '@/utils/system/nprogress'
 import { changeTitle } from '@/utils/system/title'
-
-router.beforeEach((to, from, next) => {
+import {initDynamicRouter} from "@/router/dynamicRouter"
+router.beforeEach(async (to, from, next) => {
     changeTitle(to.meta.title)// 动态title
+    await initDynamicRouter();
     next()
     NProgress.start();
 })
